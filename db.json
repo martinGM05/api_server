@@ -1,52 +1,54 @@
-[
-    {
-        "id": "1",
-        "name": "Payer 1",
-        "questions": [
-            {
-                "name": "Question 1",
-                "validations": ["required", "min:10", "max:20"]
-            }
-        ]
-    },
-    {
-        "id": "2",
-        "name": "Payer 2",
-        "questions": [
-            {
-                "name": "Question 2",
-                "validations": ["required", "min:10", "max:20"]
-            }
-        ]
-    },
-    {
-        "id": "3",
-        "name": "Payer 3",
-        "questions": [
-            {
-                "name": "Question 3",
-                "validations": ["required", "min:10", "max:20"]
-            }
-        ]
-    },
-    {
-        "id": "4",
-        "name": "Payer 4",
-        "questions": [
-            {
-                "name": "Question 4",
-                "validations": ["required", "min:10", "max:20"]
-            }
-        ]
-    },
-    {
-        "id": "5",
-        "name": "Payer 5",
-        "questions": [
-            {
-                "name": "Question 5",
-                "validations": ["required", "min:10", "max:20"]
-            }
-        ]
-    }
-]
+{
+    "payers": [
+        {
+            "id": "1",
+            "name": "Payer 1",
+            "questions": [
+                {
+                    "name": "Question 1",
+                    "validations": ["required", "min:10", "max:20"]
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "name": "Payer 2",
+            "questions": [
+                {
+                    "name": "Question 2",
+                    "validations": ["required", "min:10", "max:20"]
+                }
+            ]
+        },
+        {
+            "id": "3",
+            "name": "Payer 3",
+            "questions": [
+                {
+                    "name": "Question 3",
+                    "validations": ["required", "min:10", "max:20"]
+                }
+            ]
+        },
+        {
+            "id": "4",
+            "name": "Payer 4",
+            "questions": [
+                {
+                    "name": "Question 4",
+                    "validations": ["required", "min:10", "max:20"]
+                }
+            ]
+        },
+        {
+            "id": "5",
+            "name": "Payer 5",
+            "questions": [
+                {
+                    "name": "Question 5",
+                    "validations": ["required", "min:10", "max:20"]
+                }
+            ]
+        }
+    ]
+}
